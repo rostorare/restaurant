@@ -8,6 +8,7 @@ class RestaurantApplicationTests {
 
 	@Test
 	void contextLoads() {
+		throw new RuntimeException("test test test 123");
 	}
 
 }
