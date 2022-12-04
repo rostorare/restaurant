@@ -1,9 +1,14 @@
 spring:
   datasource:
-    host: ec2-54-76-43-89.eu-west-1.compute.amazonaws.com
-    username: ${DATASOURCE_USERNAME}
-    password: ${DATASOURCE_PASSWORD}
-    url: ${DATASOURCE_URL}
+   # host: ec2-54-76-43-89.eu-west-1.compute.amazonaws.com
+    #username: ${DATASOURCE_USERNAME}
+    #password: ${DATASOURCE_PASSWORD}
+    #url: ${DATASOURCE_URL}
+    #does not accept env variables dont know why :(
+    username: hncegwhulrdhpu
+    password: 62c364d39dca617c8f91678be5bbc02624dc91cd3f455b4ecc36b787798a8ffc
+    url: jdbc:postgresql://ec2-54-76-43-89.eu-west-1.compute.amazonaws.com:5432/deqektg4db8f64
+    #ssl-mode: require
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 5

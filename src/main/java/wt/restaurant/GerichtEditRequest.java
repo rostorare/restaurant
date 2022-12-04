@@ -1,35 +1,24 @@
 package wt.restaurant;
 
-;
-public class Gericht {
-    private long id;
+public class GerichtEditRequest {
+
     private String name;
     private String beschreibung;
     private double preis;
 
-    public Gericht(long id, String name, String beschreibung, double preis) {
-        this.id = id;
+
+    public GerichtEditRequest(String name, String beschreibung, double preis) {
         this.name = name;
         this.beschreibung = beschreibung;
-
         this.preis = preis;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getName() {
         return name;
     }
 
-
     public void setName(String name) {
-        name = name;
+        this.name = name;
     }
 
     public String getBeschreibung() {
@@ -37,7 +26,7 @@ public class Gericht {
     }
 
     public void setBeschreibung(String beschreibung) {
-        beschreibung = beschreibung;
+        this.beschreibung = beschreibung;
     }
 
     public double getPreis() {
@@ -45,6 +34,6 @@ public class Gericht {
     }
 
     public void setPreis(double preis) {
-        preis = preis;
+        this.preis = preis;
     }
 }
