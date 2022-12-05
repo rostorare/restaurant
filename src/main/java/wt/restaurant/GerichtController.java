@@ -7,8 +7,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
-
-
+//testtest
 
 @RestController
 public class GerichtController {
