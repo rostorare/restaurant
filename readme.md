@@ -4,3 +4,4 @@ Demoseite eines Restaurants
 - möglichkeit menu als zb. csv. oder einzeln hochzuladen
 - einbindung google maps für navigation
 - möglichkeit Fotos hochzuladen.
+- frontend via heroku
