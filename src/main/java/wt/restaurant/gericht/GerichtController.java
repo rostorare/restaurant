@@ -1,4 +1,4 @@
-package wt.restaurant;
+package wt.restaurant.gericht;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +24,7 @@ public class GerichtController {
     public ResponseEntity<List<Gericht>> fetchGerichte(){
         return ResponseEntity.ok(gerichtService.findAll());
     }
+
     @GetMapping(path = "api/v1/gerichte/{id}")
     public ResponseEntity<Gericht> fetchGerichtById(@PathVariable Long id){
         var gericht = gerichtService.findById(id);

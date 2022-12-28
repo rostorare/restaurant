@@ -1,15 +1,16 @@
-package wt.restaurant;
+package wt.restaurant.gericht;
 
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+//service contains businesslogic
 @Service
 public class GerichtService {
 
     private final GerichtRepository gerichtRepository;
-
 
     public GerichtService(GerichtRepository gerichtRepository) {
         this.gerichtRepository = gerichtRepository;

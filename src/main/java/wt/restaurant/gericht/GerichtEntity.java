@@ -1,4 +1,4 @@
-package wt.restaurant;
+package wt.restaurant.gericht;
 
 
 import jakarta.persistence.Column;

@@ -1,4 +1,4 @@
-package wt.restaurant;
+package wt.restaurant.gericht;
 
 ;
 public class Gericht {
