@@ -11,7 +11,6 @@ public class Gericht {
         this.id = id;
         this.name = name;
         this.beschreibung = beschreibung;
-
         this.preis = preis;
     }
 

@@ -1,13 +1,15 @@
-package wt.restaurant.table;
+package wt.restaurant.tisch;
 
 ;
-public class Table {
+public class Tisch {
     private long id;
     private int seats;
+    private String info;
 
-    public Table(long id, int seats) {
+    public Tisch(long id, int seats,String info) {
         this.id = id;
         this.seats = seats;
+        this.info = info;
     }
 
 
@@ -25,5 +27,13 @@ public class Table {
 
     public void setSeats(int seats) {
         this.seats = seats;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
     }
 }

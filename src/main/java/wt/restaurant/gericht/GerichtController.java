@@ -2,19 +2,14 @@ package wt.restaurant.gericht;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 
-//testtest
-
 @RestController
 public class GerichtController {
 
-
     private final GerichtService gerichtService;
-
     public GerichtController(GerichtService gerichtService) {
         this.gerichtService = gerichtService;
     }
@@ -51,4 +46,6 @@ public class GerichtController {
         boolean successful = gerichtService.deleteById(id);
         return successful? ResponseEntity.ok().build() : ResponseEntity.notFound().build();
     }
+
+
 }

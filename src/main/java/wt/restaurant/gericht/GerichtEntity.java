@@ -10,7 +10,6 @@ import org.springframework.data.annotation.Id;
 @Entity(name = "gerichte")
 public class GerichtEntity {
 
-
     @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

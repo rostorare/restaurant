@@ -5,4 +5,6 @@ Demoseite eines Restaurants
 - einbindung google maps für navigation
 - möglichkeit Fotos hochzuladen.
 - frontend via heroku
-- Test
+- Reservationen über fronted machen
+- Dynamische anzeige der vorhandenen Tische
+
