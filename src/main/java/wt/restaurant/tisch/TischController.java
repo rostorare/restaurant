@@ -9,7 +9,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 // crossorign später über env. laden
 @RestController
-@CrossOrigin("http://localhost:3001")
+@CrossOrigin("http://localhost:3000")
 public class TischController {
 
     private final String apiV1 = "/api/v1/tische";
