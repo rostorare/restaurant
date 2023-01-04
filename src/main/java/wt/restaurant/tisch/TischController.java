@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
-
+// crossorign später über env. laden
 @RestController
 @CrossOrigin("http://localhost:3001")
 public class TischController {
