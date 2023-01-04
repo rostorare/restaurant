@@ -7,6 +7,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @RestController
+@CrossOrigin("http://localhost:3001")
 public class GerichtController {
 
     private final GerichtService gerichtService;
