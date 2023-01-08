@@ -32,7 +32,7 @@ public class GerichtService {
     }
 
     public Gericht create(GerichtEditRequest request){
-        var gerichtEntity = new GerichtEntity(request.getBeschreibung(),request.getName(),request.getPreis());
+        var gerichtEntity = new GerichtEntity(request.getName(),request.getBeschreibung(),request.getPreis());
         gerichtEntity = gerichtRepository.save(gerichtEntity);
         return transformEntity(gerichtEntity);
 
@@ -40,8 +40,8 @@ public class GerichtService {
     private Gericht transformEntity(GerichtEntity gerichtEntity){
         return new Gericht(
                 gerichtEntity.getId(),
-                gerichtEntity.getBeschreibung(),
                 gerichtEntity.getName(),
+                gerichtEntity.getBeschreibung(),
                 gerichtEntity.getPreis()
         );
 
