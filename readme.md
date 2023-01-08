@@ -15,7 +15,7 @@ Start application:
     and after building write gradle bootrun to start the application    
     If this doesnt work, in intellij  build  application via CTRL+F9 and start it with  shit+F10
 
-
+Originalidee
 Demoseite eines Restaurants
 - möglichkeit menu als zb. csv. oder einzeln hochzuladen
 - einbindung google maps für navigation
@@ -24,3 +24,6 @@ Demoseite eines Restaurants
 - Reservationen über fronted machen
 - Dynamische anzeige der vorhandenen Tische
 
+Umsetzung:
+    - Man kann nur Gerichte mit Post,Put,Delete,Get aufrufen
+    
